@@ -1,0 +1,112 @@
+<ForceSet name="subject01_Jog01_kinetics" xml_tb_version="3.1">
+  <objects>
+    <PrescribedForce name="ExternalForce_1">
+      <body>calcn_r</body>
+      <pointIsGlobal>false</pointIsGlobal>
+      <forceIsGlobal>true</forceIsGlobal>
+      <FunctionSet name="forceFunctions">
+        <objects>
+          <GCVSpline name="#1">
+            <half_order>0</half_order>
+            <error_variance>0</error_variance>
+          </GCVSpline>
+          <GCVSpline name="#2">
+            <half_order>0</half_order>
+            <error_variance>0</error_variance>
+          </GCVSpline>
+          <GCVSpline name="#3">
+            <half_order>0</half_order>
+            <error_variance>0</error_variance>
+          </GCVSpline>
+        </objects>
+      </FunctionSet>
+      <FunctionSet name="pointFunctions">
+        <objects>
+          <GCVSpline name="#4">
+            <half_order>0</half_order>
+            <error_variance>0</error_variance>
+          </GCVSpline>
+          <GCVSpline name="#5">
+            <half_order>0</half_order>
+            <error_variance>0</error_variance>
+          </GCVSpline>
+          <GCVSpline name="#6">
+            <half_order>0</half_order>
+            <error_variance>0</error_variance>
+          </GCVSpline>
+        </objects>
+      </FunctionSet>
+      <FunctionSet name="torqueFunctions">
+        <objects>
+          <GCVSpline name="#13">
+            <half_order>0</half_order>
+            <error_variance>0</error_variance>
+          </GCVSpline>
+          <GCVSpline name="#14">
+            <half_order>0</half_order>
+            <error_variance>0</error_variance>
+          </GCVSpline>
+          <GCVSpline name="#15">
+            <half_order>0</half_order>
+            <error_variance>0</error_variance>
+          </GCVSpline>
+        </objects>
+      </FunctionSet>
+    </PrescribedForce>
+    <PrescribedForce name="ExternalForce_2">
+      <body>calcn_l</body>
+      <pointIsGlobal>false</pointIsGlobal>
+      <forceIsGlobal>true</forceIsGlobal>
+      <FunctionSet name="forceFunctions">
+        <objects>
+          <GCVSpline name="#7">
+            <half_order>0</half_order>
+            <error_variance>0</error_variance>
+          </GCVSpline>
+          <GCVSpline name="#8">
+            <half_order>0</half_order>
+            <error_variance>0</error_variance>
+          </GCVSpline>
+          <GCVSpline name="#9">
+            <half_order>0</half_order>
+            <error_variance>0</error_variance>
+          </GCVSpline>
+        </objects>
+      </FunctionSet>
+      <FunctionSet name="pointFunctions">
+        <objects>
+          <GCVSpline name="#10">
+            <half_order>0</half_order>
+            <error_variance>0</error_variance>
+          </GCVSpline>
+          <GCVSpline name="#11">
+            <half_order>0</half_order>
+            <error_variance>0</error_variance>
+          </GCVSpline>
+          <GCVSpline name="#12">
+            <half_order>0</half_order>
+            <error_variance>0</error_variance>
+          </GCVSpline>
+        </objects>
+      </FunctionSet>
+      <FunctionSet name="torqueFunctions">
+        <objects>
+          <GCVSpline name="#16">
+            <half_order>0</half_order>
+            <error_variance>0</error_variance>
+          </GCVSpline>
+          <GCVSpline name="#17">
+            <half_order>0</half_order>
+            <error_variance>0</error_variance>
+          </GCVSpline>
+          <GCVSpline name="#18">
+            <half_order>0</half_order>
+            <error_variance>0</error_variance>
+          </GCVSpline>
+        </objects>
+      </FunctionSet>
+    </PrescribedForce>
+  </objects>
+  <datafile>subject01_Jog01_kinetics.mot</datafile>
+</ForceSet>
+
