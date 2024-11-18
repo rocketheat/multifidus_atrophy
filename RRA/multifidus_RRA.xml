@@ -27,7 +27,7 @@
 		<!--XML file (.xml) containing the forces applied to the model as ExternalLoads.-->
 		<external_loads_file>subject01_Jog01_kinetics_adjusted.xml</external_loads_file>
 		<!--Motion (.mot) or storage (.sto) file containing the desired kinematic trajectories.-->
-		<desired_kinematics_file>subject01_ik_Jog.mot</desired_kinematics_file>
+		<desired_kinematics_file>/content/multifidus_atrophy/IK/subject01_ik_Jog.mot</desired_kinematics_file>
 		<!--File containing the tracking tasks. Which coordinates are tracked and with what weights are specified here.-->
 		<task_set_file>FBLS_RRA_Tasks.xml</task_set_file>
 		<!--File containing the constraints on the controls.-->
