@@ -25,7 +25,7 @@
 		<integrator_fine_tolerance> 1e-006 </integrator_fine_tolerance>
 		
 		<!--XML file (.xml) containing the forces applied to the model as ExternalLoads.-->
-		<external_loads_file>subject01_Jog01_kinetics.xml</external_loads_file>
+		<external_loads_file>subject01_Jog01_kinetics_adjusted.xml</external_loads_file>
 		<!--Motion (.mot) or storage (.sto) file containing the desired kinematic trajectories.-->
 		<desired_kinematics_file>subject01_ik_Jog.mot</desired_kinematics_file>
 		<!--File containing the tracking tasks. Which coordinates are tracked and with what weights are specified here.-->
