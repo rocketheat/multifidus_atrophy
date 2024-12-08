@@ -1,8 +1,8 @@
 <OpenSimDocument Version="40000">
-    <ExternalLoads name="external_loads">
+    <ExternalLoads name="subject01_Jog01_kinetics">
         <objects>
             <ExternalForce>
-                <name>ground_force</name>
+                <name>right_ground_force</name>
                 <applied_to_body>calcn_r</applied_to_body>
                 <force_identifier>ground_force_v</force_identifier>
                 <point_identifier>ground_force_p</point_identifier>
@@ -11,7 +11,7 @@
                 <point_expressed_in_body>ground</point_expressed_in_body>
             </ExternalForce>
             <ExternalForce>
-                <name>1_ground_force</name>
+                <name>left_ground_force</name>
                 <applied_to_body>calcn_l</applied_to_body>
                 <force_identifier>1_ground_force_v</force_identifier>
                 <point_identifier>1_ground_force_p</point_identifier>
