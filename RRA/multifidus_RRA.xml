@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CMCTool name="subject01_RRA">
 		<!--Name of the .osim file used to construct a model.-->
-		<model_file>/content/multifidus_atrophy/scale/subject01_scaled.osim</model_file>
+		<model_file>./multifidus_atrophy/scale/subject01_scaled.osim</model_file>
 		<!--Replace the model's force set with sets specified in <force_set_files>? If false, the force set is appended to.-->
 		<replace_force_set>true</replace_force_set>
 		<!--List of xml files used to construct an force set for the model.-->
@@ -27,7 +27,7 @@
 		<!--XML file (.xml) containing the forces applied to the model as ExternalLoads.-->
 		<external_loads_file>subject01_Jog01_kinetics_adjusted.xml</external_loads_file>
 		<!--Motion (.mot) or storage (.sto) file containing the desired kinematic trajectories.-->
-		<desired_kinematics_file>/content/multifidus_atrophy/IK/subject01_ik_Jog.mot</desired_kinematics_file>
+		<desired_kinematics_file>./multifidus_atrophy/IK/subject01_ik_Jog.mot</desired_kinematics_file>
 		<!--File containing the tracking tasks. Which coordinates are tracked and with what weights are specified here.-->
 		<task_set_file>FBLS_RRA_Tasks.xml</task_set_file>
 		<!--File containing the constraints on the controls.-->
